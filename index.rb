@@ -11,3 +11,7 @@ end
 get '/contact' do
   erb :contact
 end
+
+post '/contact' do
+  puts "my params are" + params.inspect
+end
